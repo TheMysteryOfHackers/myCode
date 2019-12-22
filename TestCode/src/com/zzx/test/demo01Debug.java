@@ -25,5 +25,8 @@ public class demo01Debug {
 
     public static void printlnString(){
         System.out.println("这是一个输出字符串的方法");
+        System.out.println("这个是一个输出方法");
+
+
     }
 }
