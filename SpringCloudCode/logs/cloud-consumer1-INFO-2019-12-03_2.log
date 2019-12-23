@@ -1,0 +1,9 @@
+2019-12-04 12:03:19,547 INFO  - SpringApplication.java:648 - No active profile set, falling back to default profiles: default
+2019-12-04 12:03:25,402 INFO  - DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8090"]
+2019-12-04 12:03:25,433 INFO  - DirectJDKLog.java:173 - Starting service [Tomcat]
+2019-12-04 12:03:25,435 INFO  - DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-12-04 12:03:25,837 INFO  - DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2019-12-04 12:03:27,026 WARN  - URLConfigurationSource.java:121 - No URLs will be polled as dynamic configuration sources.
+2019-12-04 12:03:27,076 INFO  - URLConfigurationSource.java:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-04 12:03:27,085 WARN  - URLConfigurationSource.java:121 - No URLs will be polled as dynamic configuration sources.
+2019-12-04 12:03:27,086 INFO  - URLConfigurationSource.java:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.

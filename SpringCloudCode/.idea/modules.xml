@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cloudconsumer1/cloudconsumer1.iml" filepath="$PROJECT_DIR$/cloudconsumer1/cloudconsumer1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloudeureka/cloudeureka.iml" filepath="$PROJECT_DIR$/cloudeureka/cloudeureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloudparent1/cloudparent1.iml" filepath="$PROJECT_DIR$/cloudparent1/cloudparent1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloudprvide1/cloudprvide1.iml" filepath="$PROJECT_DIR$/cloudprvide1/cloudprvide1.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,47 @@
+2019-12-04 11:53:56,414 INFO  - SpringApplication.java:648 - No active profile set, falling back to default profiles: default
+2019-12-04 11:53:58,486 INFO  - DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-12-04 11:53:58,505 INFO  - DirectJDKLog.java:173 - Starting service [Tomcat]
+2019-12-04 11:53:58,507 INFO  - DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-12-04 11:53:58,723 INFO  - DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2019-12-04 11:54:01,306 WARN  - URLConfigurationSource.java:121 - No URLs will be polled as dynamic configuration sources.
+2019-12-04 11:54:01,311 INFO  - URLConfigurationSource.java:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-04 11:54:01,331 WARN  - URLConfigurationSource.java:121 - No URLs will be polled as dynamic configuration sources.
+2019-12-04 11:54:01,331 INFO  - URLConfigurationSource.java:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-04 11:54:06,472 INFO  - DiscoveryClient.java:365 - Initializing Eureka in region us-east-1
+2019-12-04 11:54:08,734 INFO  - DiscoveryJerseyProvider.java:70 - Using JSON encoding codec LegacyJacksonJson
+2019-12-04 11:54:08,735 INFO  - DiscoveryJerseyProvider.java:71 - Using JSON decoding codec LegacyJacksonJson
+2019-12-04 11:54:08,890 INFO  - DiscoveryJerseyProvider.java:80 - Using XML encoding codec XStreamXml
+2019-12-04 11:54:08,890 INFO  - DiscoveryJerseyProvider.java:81 - Using XML decoding codec XStreamXml
+2019-12-04 11:54:09,126 INFO  - ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-12-04 11:54:10,341 INFO  - DiscoveryClient.java:976 - Disable delta property : false
+2019-12-04 11:54:10,342 INFO  - DiscoveryClient.java:977 - Single vip registry refresh property : null
+2019-12-04 11:54:10,342 INFO  - DiscoveryClient.java:978 - Force full registry fetch : false
+2019-12-04 11:54:10,343 INFO  - DiscoveryClient.java:979 - Application is null : false
+2019-12-04 11:54:10,343 INFO  - DiscoveryClient.java:980 - Registered Applications size is zero : true
+2019-12-04 11:54:10,343 INFO  - DiscoveryClient.java:982 - Application version is -1: true
+2019-12-04 11:54:10,344 INFO  - DiscoveryClient.java:1065 - Getting all instance registry info from the eureka server
+2019-12-04 11:54:10,948 INFO  - DiscoveryClient.java:1074 - The response status is 200
+2019-12-04 11:54:10,954 INFO  - DiscoveryClient.java:1288 - Starting heartbeat executor: renew interval is: 5
+2019-12-04 11:54:10,978 INFO  - InstanceInfoReplicator.java:60 - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-12-04 11:54:11,001 INFO  - DiscoveryClient.java:465 - Discovery Client initialized at timestamp 1575431650997 with initial instances count: 0
+2019-12-04 11:54:11,006 INFO  - DiscoveryClient.java:1323 - Saw local status change event StatusChangeEvent [timestamp=1575431651006, current=UP, previous=STARTING]
+2019-12-04 11:54:11,011 INFO  - DiscoveryClient.java:844 - DiscoveryClient_CLOUDCONSUMER1/cloudconsumer1:8080: registering service...
+2019-12-04 11:54:11,081 INFO  - DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8080"]
+2019-12-04 11:54:11,357 INFO  - DiscoveryClient.java:853 - DiscoveryClient_CLOUDCONSUMER1/cloudconsumer1:8080 - registration status: 204
+2019-12-04 11:54:14,343 INFO  - StartupInfoLogger.java:59 - Started Application in 25.282 seconds (JVM running for 30.47)
+2019-12-04 11:54:20,955 INFO  - DiscoveryClient.java:976 - Disable delta property : false
+2019-12-04 11:54:20,956 INFO  - DiscoveryClient.java:977 - Single vip registry refresh property : null
+2019-12-04 11:54:20,957 INFO  - DiscoveryClient.java:978 - Force full registry fetch : false
+2019-12-04 11:54:20,958 INFO  - DiscoveryClient.java:979 - Application is null : false
+2019-12-04 11:54:20,959 INFO  - DiscoveryClient.java:980 - Registered Applications size is zero : true
+2019-12-04 11:54:20,961 INFO  - DiscoveryClient.java:982 - Application version is -1: false
+2019-12-04 11:54:20,961 INFO  - DiscoveryClient.java:1065 - Getting all instance registry info from the eureka server
+2019-12-04 11:54:20,978 INFO  - DiscoveryClient.java:1074 - The response status is 200
+2019-12-04 11:54:30,987 INFO  - DiscoveryClient.java:976 - Disable delta property : false
+2019-12-04 11:54:30,988 INFO  - DiscoveryClient.java:977 - Single vip registry refresh property : null
+2019-12-04 11:54:30,989 INFO  - DiscoveryClient.java:978 - Force full registry fetch : false
+2019-12-04 11:54:30,992 INFO  - DiscoveryClient.java:979 - Application is null : false
+2019-12-04 11:54:30,993 INFO  - DiscoveryClient.java:980 - Registered Applications size is zero : true
+2019-12-04 11:54:30,994 INFO  - DiscoveryClient.java:982 - Application version is -1: false
+2019-12-04 11:54:30,994 INFO  - DiscoveryClient.java:1065 - Getting all instance registry info from the eureka server
+2019-12-04 11:54:31,052 INFO  - DiscoveryClient.java:1074 - The response status is 200

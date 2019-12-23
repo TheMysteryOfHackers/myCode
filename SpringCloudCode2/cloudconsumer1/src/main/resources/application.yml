@@ -1,0 +1,16 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: cloudconsumer1 # 应用名称
+eureka:
+  client:
+    service-url: # EurekaServer地址
+      defaultZone: http://127.0.0.1:10086/eureka,http://127.0.0.1:10087/eureka,http://127.0.0.1:10088/eureka
+    registry-fetch-interval-seconds: 10
+  instance:
+    instanceId: ${spring.application.name}:${server.port}
+    prefer-ip-address: true # 当其它服务获取地址时提供ip而不是hostname
+    ip-address: 127.0.0.1 # 指定自己的ip信息，不指定的话会自己寻找
+    lease-expiration-duration-in-seconds: 10  #过期时间，默认90秒，即服务的提供者没有心跳后，再10秒，服务就会失效
+    lease-renewal-interval-in-seconds: 5 # 心跳时间，默认时间30秒
